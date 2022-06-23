@@ -1,0 +1,6 @@
+nome = str(input('Digite seu nome completo: '))
+maiu = nome.upper()
+minu = nome.lower()
+qtdeL = len(nome)-nome.count(' ')
+prinome = nome.find(' ') 
+print('{}\n {}\n {}\n {}'.format(maiu, minu, qtdeL))
